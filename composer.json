@@ -111,14 +111,6 @@
             "Illuminate\\Support\\": ["src/Illuminate/Macroable/", "src/Illuminate/Collections/"]
         }
     },
-    "autoload-dev": {
-        "files": [
-            "tests/Database/stubs/MigrationCreatorFakeMigration.php"
-        ],
-        "psr-4": {
-            "Illuminate\\Tests\\": "tests/"
-        }
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "8.x-dev"
