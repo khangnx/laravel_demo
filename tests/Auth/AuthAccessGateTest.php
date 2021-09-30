@@ -31,7 +31,7 @@ class AuthAccessGateTest extends TestCase
     public function testBeforeCanTakeAnArrayCallbackAsObject()
     {
         $gate = new Gate(new Container, function () {
-            //
+            //aaa
         });
 
         $gate->before([new AccessGateTestBeforeCallback, 'allowEverything']);
